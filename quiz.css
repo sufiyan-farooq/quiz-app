@@ -1,0 +1,83 @@
+*{
+    margin: 0px auto;
+    
+}
+@font-face {
+    font-family: my-font;
+    src: url(font/WixMadeforDisplay-VariableFont_wght.ttf);
+}
+
+.quiz-box{
+    width: 60%;
+    height: 540px;
+    background-color:#fff;
+    margin-top: 45px;
+    border-radius: 20px;
+
+}
+.quiz-head{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-left: 130px;
+
+}
+.time h3{
+    margin-top: 30px;
+    font-family: my-font;
+
+}
+.quiz-question h2{
+    font-family: my-font;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.logo img{
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 130px;
+
+}
+.quiz-answer{
+    margin-top: 10px;
+    
+}
+
+.option-1 button{
+    width: 90%;
+    text-align: left;
+    margin-left: 30px;
+    padding: 13px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top:20px;
+}
+.option-1 button:hover{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+.next-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.next-btn button{
+    background-color: #0871e1;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 50%;
+    font-size: 17px;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+.next-btn button:hover{
+    background-color: #0356af;
+   
+   
+}

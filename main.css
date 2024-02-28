@@ -1,0 +1,270 @@
+@font-face {
+  font-family: my-font;
+  src: url(font/WixMadeforDisplay-VariableFont_wght.ttf);
+}
+
+.navbar{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;    width: 100%;
+    height: 90px;
+    padding: 14px !important;
+    
+ 
+    
+}
+.logo img{
+    width: 100px;
+    margin-left: 30px;
+}
+.logout-btn{
+    margin-right: 30px;
+}
+.Btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #0672bb;
+  }
+  
+  /* plus sign */
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btn:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+  }
+  /* hover effect button's text */
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  .Btn:active {
+    transform: translate(2px ,2px);
+  }
+  .section-1 h1 a{
+    text-decoration: none;
+    color: #0672bb;
+  }
+  .container{
+    margin-top: 40px;
+  }
+  .container-1 {
+  
+    font-size: clamp(2rem, 2.8vw, 5rem);
+    
+  }
+  .smit-message p{
+    font-size: 15px;
+    font-family: my-font;
+    color: #000;
+  }
+  
+  .typewriter {
+      width:19.5ch;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 4px solid #0672b7;
+      animation: cursor 1s step-start infinite, 
+      text 5s steps(18) alternate infinite;
+      color: #0d6db7;
+      font-family: my-font;
+  }
+  
+  @keyframes cursor {
+      0%, 100% { 
+      border-color: #0d6db7; 
+    }
+  }
+  
+  @keyframes text {
+      0% { 
+      width: 0; 
+    }
+      100% { 
+      width: 19.5ch; 
+    }
+  }
+  
+  .card-title {
+    color: #000;
+    font-size: 28px;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    font-family: my-font;
+
+  }
+  
+  .small-desc {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-family: my-font;
+    color: #575759;
+  }
+  
+  .small-desc {
+    font-size: 19px;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #0672b7;
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .carding {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color: #f2f8f9;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .carding:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    background-color: #0672b7;
+    right: -16px;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .carding:hover:before {
+    transform: scale(28);
+  }
+  
+  .carding:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .carding:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  .card-btn a{
+    width: 100%;
+  }
+  .card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .shadow__btn {
+    padding: 10px;
+     width: 100%;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+background-color: #0d6db7;
+border: 1px solid #fff;
+
+
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px #3394df,
+                0 0 25px #3394df,
+                0 0 50px #3394df,
+                0 0 100px #3394df;
+  }
+  @media screen and (max-width:1024px) {
+    .card-title{
+      font-size: 22px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
