@@ -190,15 +190,24 @@ background-color: #0867a6;
     .option{
         font-size: 13px;
     }
+    .quiz-box{
+        width: 100%;
+    }
 }
 @media screen and (max-width:600px) {
     .quiz-question h2{
         font-size: 20px;
     }
+    .quiz-box{
+        width: 100%;
+    }
 }
 @media screen and (max-width:430px) {
     .next-btn{
         margin-top: 0px;
+    }
+    .quiz-box{
+        width: 100%;
     }
     .table-result th{
         font-size: 13px;
