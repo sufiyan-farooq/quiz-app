@@ -12,6 +12,49 @@ var htmlCssQuiz = [
     ans4: "Home Tool Markup Language",
     anskey: "Hyper Text Markup Language",
   },
+{
+  que: "  Represents the last section of the page?",
+  ans1: "< header >",
+  ans2: "< last >",
+  ans3: "< footer >",
+  ans4: "< navbar >",
+  anskey: "< footer >",
+},
+{
+  que: " In which section or part of an HTML document is the meta tag typically located? ",
+  ans1: "The Last Page",
+  ans2: "Any Page",
+  ans3: "Second page",
+  ans4: "Third Page",
+  anskey: "Any Page",
+},
+
+{
+  que: "How many sizes of headers are available in HTML by default?",
+  ans1: "2",
+  ans2: "3",
+  ans3: "6",
+  ans4: "4",
+  anskey: "6",
+},
+
+
+{
+  que: "We enclose HTML tags within?  ",
+  ans1: "<>",
+  ans2: "{}",
+  ans3: "[]",
+  ans4: "!!",
+  anskey: "<>",
+},
+{
+  que: "Which of the following tags doesn’t require a closing tag? ",
+  ans1: "< br >",
+  ans2: "< hr >",
+  ans3: "Both A and B",
+  ans4: "None of the above",
+  anskey: "Both A and B",
+},
   {
     que: "Who is Making the Web Standards?",
     ans1: "The World Wide Web Consortium",
@@ -52,7 +95,7 @@ var htmlCssQuiz = [
       ans2: "< ol >",
       ans3: "< dl >",
       ans4: "< ul >",
-      ans5: "< ol >",
+      anskey: "< ol >",
     },
     {
       que: "What is the difference between HTML and CSS?",
@@ -117,6 +160,15 @@ var htmlCssQuiz = [
       ans2: "Computer Style Spread",
       ans3: "Colorful Style Spread",
       ans4: "Cascading Style Sheets",
+      anskey:"Cascading Style Sheets"
+    },
+    {
+      que: "    Which attribute is used to provide a unique name to an HTML element?",
+      ans1: "id",
+      ans2: "class",
+      ans3: "type",
+      ans4: "None of above",
+      anskey:"id",
     },
 ];
 
