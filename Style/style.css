@@ -6,7 +6,7 @@ body {
   }
   
   .container-wrapper {
-    background-image: url(assets/quiz-bnr-nov19.jpg); 
+    background-image: url('../assets/quiz-bnr-nov19.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat;
     height: 100vh;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: my-font;
-  src: url(font/WixMadeforDisplay-VariableFont_wght.ttf);
+  src: url("../font/WixMadeforDisplay-VariableFont_wght.ttf");
 }
 
 .navbar{
@@ -135,7 +135,7 @@
     line-height: normal;
     font-weight: 500;
     margin-bottom: 0.5em;
-    font-family: my-font;
+    font-family:my-font ;
 
   }
   

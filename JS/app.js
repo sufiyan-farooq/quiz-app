@@ -7,7 +7,7 @@ function submitForm() {
         var pass = document.getElementById('password').value;
     
         if (userName === email && userPass === pass) {
-            location.assign ("main.html")
+            location.assign ("Pages/main.html")
         } else {
          
             Swal.fire({
@@ -15,7 +15,9 @@ function submitForm() {
               title: "Incorrect",
               text: "Please correct email or password!",
             });
+            
         }
-    }
+}
     
+
 
