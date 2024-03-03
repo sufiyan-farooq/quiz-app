@@ -1,5 +1,5 @@
 
-Swal.fire("1: You have 30 minutes. <br> 2: You cant exit the quiz while you're playing. <br> 3: You'll get points on the basis of Correct Question. " );
+Swal.fire("1: You have 30 minutes. <br> 2: You cant exit the quiz while you're playing. <br> 3: You'll get points on the basis of Correct Question. <br>4: If your percentage is above 70% yu will pass " );
 
 
 // HTML QUIZ OBJECT
